@@ -1,0 +1,3 @@
+﻿  missing_num.cpp
+D:\Jayden\Documents\Programming Projects\competitive_programming\missing_num\missing_num\missing_num.cpp(9,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  missing_num.vcxproj -> D:\Jayden\Documents\Programming Projects\competitive_programming\missing_num\x64\Debug\missing_num.exe
