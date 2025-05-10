@@ -11,15 +11,15 @@ int checkElements(int arr[], int n, int A, int B) {
         if (abs(arr[i]) >= A && abs(arr[i]) <= B) {
             int z = abs(arr[i]) - A;
 
-            if (z < n && abs(arr[z]) > 0) {
+            if (z < n && arr[z] > 0) {
                 arr[z] = arr[z] * -1;
             }
         }
     }
 
     int count = 0;
-    for (int i = 0; i <= range; i++) {
-        if (arr[i] >= 0) return false;
+    for (int i = 0; i <= range && i < n; i++) {
+        if (arr[i] > 0) return false;
         count++;
     }
 
